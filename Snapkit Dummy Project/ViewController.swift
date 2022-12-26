@@ -45,20 +45,20 @@ class ViewController: UIViewController {
         // top-right
         greenSquare.snp.makeConstraints { make in
             make.width.height.equalTo(boxWidth)
-            make.trailing.equalToSuperview()
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+            make.trailing.equalToSuperview()
         }
         // bottom-left
         blueSquare.snp.makeConstraints { make in
             make.width.height.equalTo(boxWidth)
-            make.leading.equalToSuperview()
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.leading.equalToSuperview()
         }
         // bottom-right
         yellowSquare.snp.makeConstraints { make in
             make.width.height.equalTo(boxWidth)
-            make.trailing.equalToSuperview()
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.trailing.equalToSuperview()
         }
         // center
         orangeSquare.snp.makeConstraints { make in
